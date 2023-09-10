@@ -40,7 +40,7 @@ function startRandomSearches() {
 
         count++;
         updateSearchCount();
-        setTimeout(randomSearch, 500);
+        setTimeout(randomSearch, 1000);
     }
 
     randomSearch();
