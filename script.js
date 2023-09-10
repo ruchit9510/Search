@@ -12,8 +12,8 @@ const words = [
  }
  
  function openMultipleLinks() {
-    window.open('https://instagram.com/ruchit.kapuriya_15?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D', '_blank');
     window.open('https://www.linkedin.com/in/ruchit-kapuriya-263aa2229', '_blank'); 
+    window.open('https://instagram.com/ruchit.kapuriya_15?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D', '_blank');   
 }
 
 function startRandomSearches() {
