@@ -54,3 +54,10 @@ footer {
     font-size: 12px;
     color: #777;
 }
+
+.warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
