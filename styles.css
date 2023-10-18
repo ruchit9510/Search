@@ -61,3 +61,20 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.try-this {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.try-this a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: white;
+    transition: 0.3s all ease;
+}
+
+.try-this a:hover {
+    background-color: #357ab7;
+}
