@@ -1,33 +1,33 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Edge Search</title>
+    <title>Custom Bing Search</title>
     <link rel="icon" href="https://i.ibb.co/dKB4TsR/icon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    
+
 </head>
-
 <body>
-    <div class="container">
-        <h2>Microsoft Edge Random Search</h2>
-        <p>Enter the number of random searches you want to run:</p>
-        <form id="searchForm">
-            <input type="number" id="numSearches" min="1">
-            <button type="submit">Search!</button>
-        </form>
-        <button onclick="stopSearches()">Stop</button>  
-        <p id="searchCount">Searches done: 0</p>
-        <div class="try-this">
-            <a href="https://ruchit9510.github.io/search2/" target="_blank">Try this</a>
-        </div>        
-        <div class="warning">Don't use this daily; your account might get blocked.</div>
-        <footer>
-            Made by <a href="#" onclick="openMultipleLinks(); return false;" style="color: #777;">Ruchit</a>
-        </footer>
 
+    <div class="container">
+        <p>Enter a word or sentence to start the search:</p>
+        <form onsubmit="event.preventDefault(); startRandomSearches();">
+            <input type="text" id="searchQuery" placeholder="Enter word or sentence">
+            <button type="submit">Search</button>
+            <button type="button" onclick="stopSearches()">Stop</button>
+        </form>
+        <p>Search Count: <span id="searchCount">0</span></p>
+        <footer>
+            Made by <a href="#" onclick="openRuchitLinks(); return false;" style="color: #777;">Ruchit</a>
+        </footer>
+        <div class="video-label">
+            <a href="https://drive.google.com/file/d/1_VkESNCtPf8dewPx8suHD4sxs012SBHz/view" style="color: #777;" target="_blank" >Video</a>
+        </div>
     </div>
-    <script src="script.js"></script>
+    
+
+<script src="script.js"></script>
 </body>
 </html>
